@@ -12,8 +12,7 @@ namespace PruebaRomperImagen
 {
     public partial class Form1 : Form
     {
-
-        //List<int> vec = new List<int>();
+        
         int[] vec = new int[16];
 
         public Form1()
