@@ -25,7 +25,7 @@ namespace PruebaRomperImagen
             OpenFileDialog oFD = new OpenFileDialog();
             oFD.Title = "Seleccionar imagen";
             oFD.Filter = "Imágenes|*.jpg;*.gif;*.png;*.bmp|Todos (*.*)|*.*";
-            oFD.FileName = this.txtImagen.Text;
+            oFD.FileName = txtImagen.Text;
             if (oFD.ShowDialog() == DialogResult.OK)
             {
                 txtImagen.Text = oFD.FileName;
